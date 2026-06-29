@@ -1,0 +1,103 @@
+body{
+
+    margin:0;
+    padding:0;
+
+    background:#f4f6f9;
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+
+    width:70%;
+
+    margin:auto;
+
+    padding:30px;
+}
+
+h1{
+
+    text-align:center;
+
+    color:#1f4e79;
+
+    margin-bottom:40px;
+}
+
+.card{
+
+    background:white;
+
+    padding:20px;
+
+    margin-bottom:25px;
+
+    border-radius:10px;
+
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+
+    margin-bottom:15px;
+}
+
+input[type=file]{
+
+    margin-bottom:15px;
+}
+
+textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    resize:none;
+
+    font-size:16px;
+}
+
+button{
+
+    background:#0078D4;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    cursor:pointer;
+
+    border-radius:6px;
+
+    font-size:16px;
+}
+
+button:hover{
+
+    background:#005ea6;
+}
+
+#answer{
+
+    background:#f8f9fa;
+
+    border-left:5px solid #0078D4;
+
+    padding:20px;
+
+    min-height:120px;
+
+    white-space:pre-wrap;
+}
+
+#uploadStatus{
+
+    color:green;
+
+    font-weight:bold;
+}
